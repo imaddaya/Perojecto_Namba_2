@@ -2,252 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>My Website</title>
     <style>
-        .website{
-            @media (min-width:200px)and (max-width:500px){
-            background-color: blue;
-            }
-        }
-        .main-page{
-            width: 1000px;
-            height: 1000px;
-        } 
-
-        .expert-zone{
-            display: grid;
-            grid-template-columns: 100px 660px 80px 80px 80px;
-
-        }
-
-        .expert-zone-grid{
-            border: 1px solid black;
-
-        }
-
-        .all-department{
-            display: grid;
-            grid-template-columns: 130px 100px 100px 100px ;
-        }
         
-        .all-department-grid{
-            border: 1px solid black;
-            font-size: 10px;
-        }
-        .categorie-laptops{
-            display: grid;
-            grid-template-columns: 200px 800px;
-            gap: 10px;
-        }
-
-        .categorie{
-            display: grid;
-            border: 1px solid black;
-        } 
-
-        .laptops{
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            border: 1px solid black;
-            gap: 5px;
-        }
-
-        .laptops-grid{
-            border: 1px solid black;
-        }
-
-        .products{
+        .rubbon{
             display: flex;
-            flex-direction: column;
-            width: 174px;
-            padding: 10px;
-            border-radius: 15px;
+            align-items: stretch;
+            flex-wrap: wrap;
+            border: 1px solid;
+            font-size: 30px ;
+            background-color: aqua;
+            flex-direction: row;
 
         }
+        .rubbon > div{
+            text-align: center;
+            line-height: 80px;
+            width: 100px;
+            height: 80px;
+            margin: 10px;
+        }
+
+        .small-rubbon{
+            font-size: 15px;
+            border: 1px solid black;
+
+        }
+
+
+
+
 
 
 
 
     </style>
 </head>
-<body class="website">
-    <div class="main-page" style="margin-left: auto;margin-right: auto;text-align: center;">
-        
-        <div style="background-color: red; color: white;">
-            <p>Bechara l khoury , hamra</p>
-        </div>
-        
-        <div class="expert-zone">
-            <div class="expert-zone-grid">
-                <p>ExpertZone</p>
-            </div>
 
-            <div class="expert-zone-grid">
-                <p>search for products</p>
-            </div>
-
-            <div style="font-size:10px;" class="expert-zone-grid">
-                <p>YOUR ACCOUNT</p>
-            </div>
-
-            <div style="font-size:10px;" class="expert-zone-grid">
-                <p>WISHLIST</p>
-            </div>
-
-            <div style="font-size:10px;" class="expert-zone-grid">
-                <p>YOUR CART</p>
-            </div>
-        </div>
-        
-        <hr>
-
-        <div class="all-department">
-            <div  class="all-department-grid">
-                <p>All departments</p>
-            </div>
-
-            <div class="all-department-grid">
-                <p>HOME</p>
-            </div>
-
-            <div class="all-department-grid">
-                <p>MY ACCOUNT</p>
-            </div>
-
-            <div class="all-department-grid">
-                <p>OUR LOCATION</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="categorie-laptops">
-            <div class="categorie">
-                <div class="categorie-grid">
-                    <p>1</p>
-                </div>
-
-                <div class="categorie-grid">
-                    <p>2</p>
-                </div>
-
-                <div class="categorie-grid">
-                    <p>3</p>
-                </div>
-            </div>
-
-            <div class="laptops">
-                <div class="laptops-grid" style="grid-column-start: 1;grid-column-end: 4; text-align: left;">
-                    <p>GAMING / HIGH END LAPTOP</p>
-                </div>
-
-                <div class = "laptops-grid" style="text-align: right;" >
-                    <p>showing all results</p>
-                </div>
-
-                <div class = "laptops-grid" style="grid-column-start: 1;grid-column-end: 5; text-align: right; font-size: 10px;" >
-                    <p>Default Sorting</p>
-                </div>
-
-                <div class="laptops-grid products" >
-                    <img style="height: 100px;" src="photos/4.png" alt="laptop" >
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;" src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;" src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>                
-                </div>
-                
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-
-                <div class="laptops-grid products">
-                    <img  style="height: 100px;"src="photos/4.png" alt="laptop">
-                    <div > 
-                        dmthink i a fkj,rv iuf flisug flsgelfiugsg leifuglsieugfgf iugegfl usgs efliug lefufg gl <br>
-                        <a href="default.asp" target="_bk">This is a link</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+<body>
+    <div class="rubbon">
+        <div style="flex-grow: 7; text-align: left;">amazon</div>
+        <div class="small-rubbon" >My Account</div>
+        <div class="small-rubbon" >My Cart</div>
+        <div class="small-rubbon" >My Wish List</div>
     </div>
-
 </body>
 </html>
